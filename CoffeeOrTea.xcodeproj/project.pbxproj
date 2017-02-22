@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		054365431E5CF88F0074AA13 /* CoffeeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054365421E5CF88F0074AA13 /* CoffeeVC.swift */; };
 		054365451E5CFB3F0074AA13 /* TeaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054365441E5CFB3F0074AA13 /* TeaVC.swift */; };
+		054365471E5E1E430074AA13 /* PlacesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054365461E5E1E430074AA13 /* PlacesCell.swift */; };
 		05E584801E5CDF7500FB011E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E5847F1E5CDF7500FB011E /* AppDelegate.swift */; };
 		05E584821E5CDF7500FB011E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E584811E5CDF7500FB011E /* ViewController.swift */; };
 		05E584851E5CDF7500FB011E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E584831E5CDF7500FB011E /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		054365421E5CF88F0074AA13 /* CoffeeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeeVC.swift; sourceTree = "<group>"; };
 		054365441E5CFB3F0074AA13 /* TeaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeaVC.swift; sourceTree = "<group>"; };
+		054365461E5E1E430074AA13 /* PlacesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlacesCell.swift; sourceTree = "<group>"; };
 		05E5847C1E5CDF7500FB011E /* CoffeeOrTea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeOrTea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05E5847F1E5CDF7500FB011E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05E584811E5CDF7500FB011E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		054365401E5CF8400074AA13 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				054365461E5E1E430074AA13 /* PlacesCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			files = (
 				054365431E5CF88F0074AA13 /* CoffeeVC.swift in Sources */,
 				054365451E5CFB3F0074AA13 /* TeaVC.swift in Sources */,
+				054365471E5E1E430074AA13 /* PlacesCell.swift in Sources */,
 				05E584821E5CDF7500FB011E /* ViewController.swift in Sources */,
 				05E584801E5CDF7500FB011E /* AppDelegate.swift in Sources */,
 			);

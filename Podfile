@@ -9,5 +9,6 @@ target 'CoffeeOrTea' do
   # Pods for CoffeeOrTea
     pod 'GoogleMaps'
     pod 'GooglePlaces'
+    pod 'GooglePlacePicker'
 
 end
