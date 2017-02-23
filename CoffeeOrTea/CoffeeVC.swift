@@ -33,10 +33,13 @@ class CoffeeVC: UIViewController, CLLocationManagerDelegate, GMSMapViewDelegate,
 
         locationManager.delegate = self
         locationManager.requestWhenInUseAuthorization()
+        
 
-         placesClient = GMSPlacesClient.shared()
+        placesClient = GMSPlacesClient.shared()
     
     }
+    
+   
     
     @IBAction func getCurrentPlace(_ sender: UIButton) {
         
@@ -50,41 +53,15 @@ class CoffeeVC: UIViewController, CLLocationManagerDelegate, GMSMapViewDelegate,
                 for likelihood in placeLikelihoodList.likelihoods {
                     let place = likelihood.place
                     print("Current Place name \(place.name) at likelihood \(likelihood.likelihood)")
+                    print("Current Rating \(place.rating)")
+                    print("Price Level \(place.priceLevel)")
+                    print("Open status \(place.openNowStatus)")
                     print("Current Place address \(place.formattedAddress)")
-                    print("Current Place attributions \(place.attributions)")
-                    print("Current PlaceID \(place.placeID)")
+                    print("Place type \(place.types)")
                 }
             }
         })
     }
-    
-    // Place picker
-    @IBAction func pickPlace(_ sender: UIButton) {
-        let center = CLLocationCoordinate2D(latitude: 37.788204, longitude: -122.411937)
-        let northEast = CLLocationCoordinate2D(latitude: center.latitude + 0.001, longitude: center.longitude + 0.001)
-        let southWest = CLLocationCoordinate2D(latitude: center.latitude - 0.001, longitude: center.longitude - 0.001)
-        let viewport = GMSCoordinateBounds(coordinate: northEast, coordinate: southWest)
-        let config = GMSPlacePickerConfig(viewport: viewport)
-        let placePicker = GMSPlacePicker(config: config)
-        
-        placePicker.pickPlace(callback: {(place, error) -> Void in
-            if let error = error {
-                print("Pick Place error: \(error.localizedDescription)")
-                return
-            }
-            
-            if let place = place {
-                self.nameLabel.text = place.name
-                self.addressLabel.text = place.formattedAddress?.components(separatedBy: ", ")
-                    .joined(separator: "\n")
-            } else {
-                self.nameLabel.text = "No place selected"
-                self.addressLabel.text = ""
-            }
-        })
-    }
-    
-   
     
     @IBOutlet var nameLabel: UILabel!
     @IBOutlet var addressLabel: UILabel!
@@ -107,13 +84,13 @@ class CoffeeVC: UIViewController, CLLocationManagerDelegate, GMSMapViewDelegate,
     
     // If authorized
     func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
-        // 3
+        
         if status == .authorizedWhenInUse {
             
-            // 4
+            
             locationManager.startUpdatingLocation()
             
-            //5
+            
             mapView.isMyLocationEnabled = true
             mapView.settings.myLocationButton = true
         }

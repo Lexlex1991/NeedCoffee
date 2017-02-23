@@ -7,8 +7,15 @@
 //
 
 import UIKit
+import GooglePlaces
+import GoogleMaps
 
 class PlacesCell: UITableViewCell {
+    
+    let locationManager = CLLocationManager()
+    // From PlacesAPI guide
+    var placesClient: GMSPlacesClient!
+
     
     
     @IBOutlet weak var placeImage: UIImageView!
@@ -16,10 +23,14 @@ class PlacesCell: UITableViewCell {
     @IBOutlet weak var placeNameLbl: UILabel!
 
     @IBOutlet weak var placeAddressLbl: UILabel!
+   
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
+       
     }
+    
+    
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
@@ -31,5 +42,4 @@ class PlacesCell: UITableViewCell {
     func configureCell() {
     
     }
-
 }

@@ -26,106 +26,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CoffeeOrTea/CoffeeVC.swift"
-            timestampString = "509487569.336558"
+            timestampString = "509510840.212716"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "140"
-            endingLineNumber = "140"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
             landmarkName = "locationManager(_:didUpdateLocations:)"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CoffeeOrTea/CoffeeVC.swift"
-            timestampString = "509486243.877753"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "CoffeeVC"
-            landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CoffeeOrTea.CoffeeVC.__deallocating_deinit"
-                  moduleName = "CoffeeOrTea"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alexandersilkin/Developer/CoffeeOrTea/CoffeeOrTea/CoffeeVC.swift"
-                  timestampString = "509484665.766875"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "12">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CoffeeOrTea.CoffeeVC.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; CoffeeOrTea.CoffeeVC"
-                  moduleName = "CoffeeOrTea"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alexandersilkin/Developer/CoffeeOrTea/CoffeeOrTea/CoffeeVC.swift"
-                  timestampString = "509484665.770364"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "60">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CoffeeOrTea.CoffeeVC.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; CoffeeOrTea.CoffeeVC"
-                  moduleName = "CoffeeOrTea"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alexandersilkin/Developer/CoffeeOrTea/CoffeeOrTea/CoffeeVC.swift"
-                  timestampString = "509484665.772326"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "32">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CoffeeOrTea.CoffeeVC.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;CoffeeOrTea.CoffeeVC&gt;"
-                  moduleName = "CoffeeOrTea"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alexandersilkin/Developer/CoffeeOrTea/CoffeeOrTea/CoffeeVC.swift"
-                  timestampString = "509484665.774013"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "12">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "CoffeeOrTea.CoffeeVC.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;CoffeeOrTea.CoffeeVC&gt;"
-                  moduleName = "CoffeeOrTea"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/alexandersilkin/Developer/CoffeeOrTea/CoffeeOrTea/CoffeeVC.swift"
-                  timestampString = "509484665.775544"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "20">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

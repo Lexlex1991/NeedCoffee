@@ -10,5 +10,5 @@ target 'CoffeeOrTea' do
     pod 'GoogleMaps'
     pod 'GooglePlaces'
     pod 'GooglePlacePicker'
-
+    pod 'SwiftyJSON'
 end
